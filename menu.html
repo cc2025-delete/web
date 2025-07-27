@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores de mi tierra - Menú</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+<body>
+
+    <form id="form-busqueda" class="barra-busqueda">
+        <input type="text" id="input-busqueda" placeholder="Buscar...">
+        <button type="submit">
+            <img src="imagenes/icono-buscar.png" alt="Buscar">
+        </button>
+    </form>
+    <div id="resultados-busqueda" class="resultados-busqueda"></div>
+
+
+    <!-- Menú superior (igual al index.html) -->
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="redes.html">Redes</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="busqueda.html">Buscar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido específico del Menú -->
+    <main class="main-menu">
+        <h1>Nuestro Menú</h1>
+        <div class="categorias-comida">
+            <!-- Desayunos -->
+            <section class="categoria">
+                <h2>Desayunos</h2>
+                <img src="imagenes/menu/desayuno.jpg" alt="Desayunos tradicionales" width="250">
+                <ul class="items-comida">
+                    <li>Huevos rancheros</li>
+                    <li>Chilaquiles verdes</li>
+                    <li>Tamales</li>
+                </ul>
+            </section>
+
+            <!-- Almuerzos -->
+            <section class="categoria">
+                <h2>Almuerzos</h2>
+                <img src="imagenes/menu/almuerzo.jpg" alt="Almuerzos tradicionales" width="250">
+                <ul class="items-comida">
+                    <li>Pozole</li>
+                    <li>Mole con pollo</li>
+                    <li>Enchiladas</li>
+                </ul>
+            </section>
+
+            <!-- Cenas -->
+            <section class="categoria">
+                <h2>Cenas</h2>
+                <img src="imagenes/menu/cena.jpg" alt="Cenas tradicionales" width="250">
+                <ul class="items-comida">
+                    <li>Tostadas</li>
+                    <li>Sopes</li>
+                    <li>Quesadillas</li>
+                </ul>
+            </section>
+
+            <!-- Postres y Bebidas -->
+            <section class="categoria">
+                <h2>Postres y Bebidas</h2>
+                <img src="imagenes/menu/postres.jpg" alt="Postres tradicionales" width="250" height="175">
+                <ul class="items-comida">
+                    <li>Flan</li>
+                    <li>Atole</li>
+                    <li>Agua de horchata</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer (igual al index.html) -->
+    <footer class="footer">
+        <p>&copy; Castellanos Castillo 2025. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts/busqueda.js"></script>
+
+</body>
+</html>

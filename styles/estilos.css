@@ -1,0 +1,445 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9f0;
+    color: #5a3e2b;
+}
+
+/* Header y menú */
+.header {
+    background-color: #f8f1e9;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #e67e22;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: block;
+    font-weight: bold;
+}
+
+.nav-list li a:hover {
+    background-color: #d35400;
+}
+
+/* Logo grande */
+.main-index {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.logo-grande img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #5a3e2b;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+/* Estilos para la página de Menú */
+.main-menu {
+    padding: 2rem;
+    text-align: center;
+}
+
+.main-menu h1 {
+    color: #e67e22;
+    margin-bottom: 2rem;
+}
+
+.categorias-comida {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.categoria {
+    background-color: #f8f1e9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.categoria img {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.items-comida {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.items-comida li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed #e67e22;
+}
+
+
+
+
+/* Estilos para la página "Acerca de" */
+.main-acerca {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.seccion-info {
+    background-color: #f8f1e9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-info h2 {
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.valores-lista {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.valores-lista li {
+    padding: 0.5rem 0;
+}
+
+
+
+
+/* Estilos para la página de Redes */
+.main-redes {
+    padding: 2rem;
+    text-align: center;
+}
+
+.redes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.red-social {
+    background-color: #f8f1e9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #5a3e2b;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.red-social:hover {
+    transform: translateY(-5px);
+    background-color: #e67e22;
+    color: white;
+}
+
+.red-social img {
+    margin-bottom: 0.5rem;
+}
+
+.red-social p {
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.red-social span {
+    font-size: 0.9rem;
+    color: inherit;
+}
+
+
+
+
+/* Estilos para la página de Servicios */
+.main-servicios {
+    padding: 2rem;
+    text-align: center;
+}
+
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.servicio-card {
+    background-color: #f8f1e9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.servicio-card img {
+    margin-bottom: 1rem;
+}
+
+.servicio-card h2 {
+    color: #e67e22;
+    margin: 0.5rem 0;
+}
+
+.servicio-card a {
+    color: #5a3e2b;
+    text-decoration: none;
+}
+
+.servicio-card a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Estilos para la página de Búsqueda */
+.main-busqueda {
+    padding: 3rem 1rem;
+    text-align: center;
+    min-height: 60vh;
+}
+
+.contenedor-busqueda {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.barra-busqueda {
+    display: flex;
+    border: 2px solid #e67e22;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 0.5rem;
+    background: white;
+}
+
+.barra-busqueda input {
+    flex-grow: 1;
+    border: none;
+    padding: 0.8rem;
+    outline: none;
+    font-size: 1rem;
+}
+
+.barra-busqueda button {
+    background: #e67e22;
+    border: none;
+    padding: 0 1.2rem;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+}
+
+.barra-busqueda button:hover {
+    background: #d35400;
+}
+
+.indicadores-navegacion {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.punto {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #000000;
+    cursor: pointer;
+}
+
+.punto.activo {
+    background: #e67e22;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9f0;
+    color: #5a3e2b;
+    transition: all 0.3s ease;
+}
+
+
+/* Efectos hover globales */
+
+
+/* Menú superior */
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: block;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav-list li a:hover {
+    background-color: #d35400;
+    transform: scale(1.05);
+}
+
+/* Botones */
+button {
+    transition: all 0.3s ease !important;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tarjetas interactivas (comida, redes, servicios) */
+.categoria:hover,
+.red-social:hover,
+.servicio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Enlaces de texto */
+a:not(.nav-list li a):hover {
+    color: #000000 !important;
+    text-decoration: underline;
+}
+
+
+/* Efectos específicos por página */
+
+
+/* Página de Menú */
+.food-item:hover {
+    transform: scale(1.03);
+    background-color: #f0e6d2 !important;
+}
+
+.food-item:hover h3 {
+    color: #e67e22;
+}
+
+/* Página de Redes */
+.red-social:hover img {
+    transform: rotate(5deg);
+}
+
+/* Página de Servicios */
+.servicio-card:hover img {
+    animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* Página de Búsqueda */
+.barra-busqueda button:hover {
+    background: #d35400 !important;
+}
+
+.punto:hover {
+    background: #e67e22 !important;
+    transform: scale(1.3);
+}
+
+
+
+
+.footer{
+    justify-content: center;
+}
+
+
+/* Barra de búsqueda */
+.barra-busqueda {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#input-busqueda {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #e67e22;
+    border-radius: 20px 0 0 20px;
+}
+
+.barra-busqueda button {
+    background: #e67e22;
+    border: none;
+    padding: 0 15px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+/* Resultados */
+.resultados-busqueda {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.item-resultado {
+    background: #f8f1e9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.item-resultado a {
+    color: #e67e22;
+    text-decoration: none;
+}
+
